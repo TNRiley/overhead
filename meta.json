@@ -1,0 +1,29 @@
+{
+  "slug": "overhead",
+  "title": "Overhead",
+  "favicon": "🛰️",
+  "built": "2026-09-04",
+  "tagline": "721 real satellites, propagated live in your browser from their orbital elements.",
+  "blurb": "A draggable day/night globe with coastlines and ground tracks, a time scrubber running up to 3000×, and an altitude-by-inclination census that exposes the hidden structure of the sky. Rather than freezing satellite positions, it ships the orbital elements and solves Kepler's equation in the page, so it stays live indefinitely with no network. Every number drills down to the six elements behind it, and objects on wild ellipses are drawn as perigee-to-apogee lines instead of points.",
+  "tags": [
+    "space",
+    "orbital mechanics",
+    "data viz",
+    "globe"
+  ],
+  "sources": [
+    {
+      "name": "CelesTrak two-line element sets",
+      "url": "https://celestrak.org",
+      "licence": "check redistribution terms before re-hosting the data"
+    }
+  ],
+  "stack": [
+    "vanilla JS",
+    "canvas",
+    "hand-written Keplerian propagator"
+  ],
+  "hasSource": "lost-reproducible",
+  "bytes": 184110,
+  "published": false
+}
